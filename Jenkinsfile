@@ -1,9 +1,9 @@
 pipeline{
   agent any
-  stages {
+  stages{
     stage("jenkins pac"){
-      steps {
-        script {
+      steps{
+        script{
 	  sh """ 
 	  echo "Hi welcome to jenkins pac"
 	  """
