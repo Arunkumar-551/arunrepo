@@ -8,6 +8,7 @@ pipeline{
 	  echo "Hi welcome to jenkins pac"
 	  """
 }
+	      
       }
     }
   }
