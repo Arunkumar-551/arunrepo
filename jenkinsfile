@@ -5,7 +5,7 @@ pipeline {
       steps {
         script {
 	  sh """ 
-	  echo Hi welcome to jenkins pac
+	  echo "Hi welcome to jenkins pac"
 	  """
 	}
       }
