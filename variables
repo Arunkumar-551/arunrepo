@@ -1,0 +1,13 @@
+pipeline{
+  agent any
+    stages{
+      stage("Definineg the variables") {
+        steps{
+          script{
+          var = 20
+          println "my var value is ${var}"
+          }
+        }
+      }
+    }
+}
